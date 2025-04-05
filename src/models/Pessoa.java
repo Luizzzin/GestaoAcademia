@@ -17,4 +17,6 @@ abstract class Pessoa {
     public int getIdadePessoa() {
         return idadePessoa;
     }
+
+    public abstract String getDescricao();
 }
